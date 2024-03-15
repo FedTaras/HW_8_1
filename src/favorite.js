@@ -1,7 +1,7 @@
-import { common } from './common';
-import { createMurkup } from './helpers/helper';
-import { createModal } from './helpers/createModal';
-import { instruments } from './helpers/instruments';
+import { common } from './/common';
+import { createMurkup } from './/helpers/helper';
+import { createModal } from './/helpers/createModal';
+import { instruments } from './/helpers/instruments';
 
 const list = document.querySelector('.js_list');
 const favorite = JSON.parse(localStorage.getItem(common.FAVORITE_KEY)) ?? [];

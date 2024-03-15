@@ -1,7 +1,7 @@
-import { common } from './common';
-import { createMurkup } from './helpers/helper';
-import { createModal } from './helpers/createModal';
-import { instruments } from './helpers/instruments';
+import { common } from './/common';
+import { createMurkup } from './/helpers/helper';
+import { createModal } from './/helpers/createModal';
+import { instruments } from './/helpers/instruments';
 
 const search = document.querySelector('.js_search');
 const list = document.querySelector('.js_list');

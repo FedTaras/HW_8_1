@@ -1,6 +1,7 @@
 import * as basicLightbox from 'basiclightbox';
 import 'basiclightbox/dist/basicLightbox.min.css';
-import { closeModal } from './closeModal';
+import { closeModal } from './/closeModal';
+
 function createModal(product) {
   const instance = basicLightbox.create(
     `
